@@ -1,0 +1,234 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Fashion</title> 
+        <link rel="stylesheet"  href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">   
+        <style> 
+        .nav-brand{ 
+            font-size:24px; 
+            font-family:Arial; 
+            font-weight:bold; 
+        } 
+        .nav-item{ 
+            font-size:20px; 
+            font-family:Arial; 
+            font-weight:bold; 
+            word-spacing:10px; 
+        } 
+        .nav-items span{ 
+            margin-right: 20px; 
+        } 
+        .nav-toolbar{ 
+            font-size: 20px; 
+            font-family:Arial; 
+        } 
+        .nav-toolbar span{ 
+            margin-right: 15px; 
+        } 
+        header{ 
+            display: flex; 
+            justify-content:space-between; 
+            background-color:white; 
+            color:black; 
+            box-shadow: 5px 5px 10px gray; 
+            padding:30px; 
+        } 
+        .brand-title{ 
+            margin-top:10px; 
+            padding:10px; 
+            background-color:black; 
+            color:white; 
+            text-align:center; 
+            font-family:Arial; 
+            letter-spacing: 10px; 
+            word-spacing: 15px; 
+         } 
+         .box1{ 
+             background-image: url("woman fashion..jpeg"); 
+             background-size:cover; 
+             width: 90%; 
+             height: 300px; 
+             display: flex; 
+             flex-direction:column; 
+             justify-content:space-around; 
+             align-items:center; 
+         } 
+          .box2{ 
+              background-image: url("..//images/woman\ man.jpeg"); 
+              background-size:cover; 
+              width: 90%; 
+              height: 300px; 
+              display: flex; 
+              flex-direction:column; 
+              justify-content:space-around; 
+              align-items:center; 
+             } 
+             .box3{ 
+                 background-image:url("../images/kids\ pic..jpg"); 
+                 background-size:cover; 
+                 width: 90%; 
+                 height: 300px; 
+                 display: flex; 
+                 flex-direction:column; 
+                justify-content:space-around; 
+                align-items:center; 
+                } 
+            .brand-banner{ 
+                 display:flex; 
+                margin-top:25px; 
+            } 
+            h1{ 
+                text-align:center; 
+                color:white; 
+                font-size: 50px; 
+                text-shadow:2px 2px 3px black; 
+                font-family:Algerian; 
+             } 
+             button{ 
+                 background-color:black; 
+                 color:white; 
+                 width:150px; 
+                 height:40px; 
+                 border:none; 
+                 border-radius:100px; 
+                 } 
+                 footer{ 
+                    border:solid 2px black; 
+                    display:flex; 
+                    grid-template-columns:1/4fr,1/4fr,1/4fr; 
+                    justify-content:space-between; 
+                 } 
+                 header,footer,main,.nav-brand,.nav-item{ 
+                    border:solid 2px black transparent; 
+                 } 
+        @media screen and (orientation:portrait) 
+        { 
+            .container{ 
+                display:grid; 
+                grid-template-columns: 12fr;
+ 
+            } 
+            .nav-item,nav-brand,nav-toolbar{ 
+                display:flex; 
+                margin-left:15px; 
+            } 
+            header{ 
+                grid-row:2; 
+            } 
+            box1{ 
+                grid-row:1; 
+            } 
+            box2{ 
+                grid-row:1; 
+            } 
+            box3{ 
+                grid-row:1; 
+            } 
+            footer{ 
+                display:grid; 
+                grid-template-columns: 12fr;
+            } 
+ 
+         } 
+      </style> 
+             </head> 
+ 
+<body> 
+    <div class="container"> 
+        <header> 
+            <div class="nav-brand"> 
+                Shopper. 
+            </div> 
+            <div class="nav-item"> 
+                <span><a href="#Home">home</a></span> 
+                <span><a href="#Woman">Woman</a></span> 
+                <span><a href="#men">men</a></span> 
+                <span><a href="#kids">kid</a></span> 
+                <span><a href="#Pages">pages</a></span> 
+                <span><a href="#Docs">docs</a></span> 
+            </div> 
+            <div class="nav-toolbar"> 
+                <span class="bi bi-search"></span> 
+                <span class="bi bi-person"></span> 
+                <span class="bi bi-heart"></span> 
+                <span class="bi bi-cart"></span> 
+            </div> 
+        </header> 
+        <main> 
+        <div class="brand-title"> 
+            HAPPY HOLIDAY DEALS ON EVERYTHING 
+        </div> 
+        <div class="brand-banner"> 
+            <div class="box1"> 
+                <div> 
+                     <h1 id="Woman">Woman</h1> 
+                    </div> 
+                 <div> 
+                        <button> 
+                            Shop woman 
+                            <span class="bi bi-arrow-right"></span> 
+                        </button> 
+                    </div> 
+                    </div> 
+                 <div class="box2"> 
+                    <div> 
+                        <h1>Men</h1> 
+                    </div> 
+                    <div> 
+                        <button> 
+                            Shop Men 
+                            <span class="bi bi-arrow-right"></span> 
+                         </button> 
+                    </div> 
+                    </div> 
+                    <div class="box3"> 
+                        <div> 
+                            <h1>Kids</h1> 
+                        </div> 
+                        <div> 
+                            <button> 
+                                shop Kids 
+                                <span class="bi bi-arrow-right"></span> 
+                            </button> 
+                        </div> 
+                    </div> 
+              </main> 
+        <footer> 
+            <ul> 
+                <li><b>Shopper.</b></li> 
+                <span class="bi bi-instagram"></span> 
+                <span class="bi bi-play-btn"></span> 
+                <span class="bi bi-twitter"></span> 
+                <span class="bi bi-facebook"></span> 
+            </ul> 
+            <ul> 
+                <li><b>SUPPORT</b></li> 
+                <li>Contact Us</li> 
+                <li>FAQs</li> 
+                <li>Size Guide</li> 
+                <li>Shipping & Returns</li> 
+              </ul> 
+              <ul> 
+                <li><b>SHOP</b></li> 
+                <li>Men's Shopping</li> 
+                <li>Woman's Shopping</li> 
+                <li>kid's Shopping</li> 
+                <li>Discounts</li> 
+              </ul> 
+              <ul> 
+                <li><b>COMPANY</b></li> 
+                <li>Our Story</li> 
+                <li>Careers</li> 
+                <li>Terms & conditions</li> 
+                <li>Privacy & cookie</li> 
+                <li>policy</li> 
+                
+              </ul> 
+        </footer> 
+        </div> 
+     
+        </body> 
+    </html>

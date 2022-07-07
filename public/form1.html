@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        .box{
+            width: 40%;
+            border: 2px solid rgb(255, 247, 247);
+            margin: 30px;
+        }
+        #box1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;         
+        }
+        #box2{
+            display: flex;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #box3{
+            display: flex;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        #btn{
+            background-color: 	#1e90ff;
+            color: rgb(247, 247, 247);
+            margin-top: 20px;
+            border: #1e90ff;
+            padding: 10px;
+            width: 120px;
+            text-align: center;
+            border-radius: 6px;
+            margin-left: 470px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <font size="4" > <b>Buying a</b> </font> <input type="radio"> New Car <input type="radio"> Pre-owned Car
+        <div>
+            <div id="box1">
+                <div>Amount you need<input type="text" style="width: 100px;" value="18037500"></div>
+                <div>For<input type="text" style="width: 50px;">Years </div>   
+                <div>Interest rate<input type="text" style="width: 50px;">%</div>
+            </div>
+            <div id="box2">
+                <input type="range"  style="width: 230px;">
+                <input type="range" style="width: 140px;"  >
+                <input type="range"  style="width: 150px;"  >
+            </div>
+            <div id="box3">
+                <div>₹75,000</div><div >₹3,60,00,000</div>
+                <div  > 1 year</div> <div  >7 year</div>
+                <div  >8%</div> <div  >20%</div>
+            </div>          
+        </div>
+        <div><button id="btn">CALCULATE</button></div>
+    </div>
+</body>
+</html>

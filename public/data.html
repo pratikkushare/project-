@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data List</title>
+        <style>
+            fieldset {
+                margin-bottom: 30px;
+            }
+            dl {
+                display: grid;
+                grid-template-columns: 3fr 9fr;
+            }
+            dt{
+                background-color: black;
+                color:white;
+                margin-bottom: 5px;
+                padding: 5px;
+            }
+            legend {
+                background-color: black;
+                color:white;
+                text-align: center;
+                padding: 5px;
+                width: 150px;
+                box-shadow: 2px 5px 2px gray;
+                border-radius: 10px;
+            }
+            .offer {
+                width: 100px;
+                height: 90px;
+                background-color: red;
+                color:white;
+                padding: 30px;
+                border-radius:200px;
+                font-size: 40px;
+                text-align: center;
+            }
+            .off {
+                background-color: aqua;
+                color: firebrick;
+                border-radius: 200px;
+                width: 80px;
+                height: 80px;
+                text-align: center;
+                padding: 40px;
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <body>
+      <div class="offer">
+            50% OFF
+      </div>
+      <div class="off"> 25%</div>
+      <h1 align="center">Resume</h1>
+      <fieldset>
+          <legend>Personal Info.</legend>
+          <dl>
+              <dt>Name</dt>
+              <dd>some name</dd>
+              <dt>Mothers Name</dt>
+              <dd>some name</dd>
+          </dl>
+      </fieldset>
+      <fieldset>
+          <legend>Address Info</legend>
+          <dl>
+              <dt>City</dt>
+              <dd>some city</dd>
+              <dt>State</dt>
+              <dd>some state</dd>
+              <dt>Postal Code</dt>
+              <dd>some code</dd>
+          </dl>
+      </fieldset>
+    </body>
+</html>
